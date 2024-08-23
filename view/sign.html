@@ -15,11 +15,11 @@
     <div class="login-container">
         <div class="login-form">
             <h1>Signup</h1>
-            <form action="/login" method="post">
+            <form action="/login" method="post" id="userData">
                 <div class="input-group">
                     
                     <label for="user">User-Name</label>
-                    <input type="text" id="u-name" name="user" required>
+                    <input type="text" id="username" name="user" required>
                 </div>
                 <div class="input-group">
 
@@ -30,14 +30,13 @@
                     <label for="password">Password</label>
                     <input type="password" id="password" name="password" required>
                 </div>
-                <div class="input-group">
-                    <label for="password">Conform Password</label>
-                    <input type="password" id="password" name="password" required>
-                </div>
                 <button type="submit">Signup</button>
             </form>
         </div>
     </div>
+
+
+    <script src="./js/singup.js"></script>
 </body>
 
 </html>
