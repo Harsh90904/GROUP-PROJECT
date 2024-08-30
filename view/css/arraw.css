@@ -1,0 +1,114 @@
+/* General styles for arrow buttons */
+.arrow-prev, .arrow-next {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: border-color 0.3s, transform 0.3s;
+    overflow: hidden;
+}
+
+/* Hover effect for both arrows */
+.arrow-prev:hover, .arrow-next:hover {
+    border-color: #aaa; /* Adjust hover border color */
+    transform: scale(1.1);
+}
+
+/* Arrow shape for previous */
+.arrow-prev:before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 15px solid white;
+    left: 12px;
+}
+
+.arrow-prev:after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    border-right: 10px solid white;
+    left: 18px;
+    top: 7px;
+    transform: rotate(-45deg);
+}
+
+/* Arrow shape for next */
+.arrow-next:before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 15px solid white;
+    right: 12px;
+}
+
+.arrow-next:after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    border-left: 10px solid white;
+    right: 18px;
+    top: 7px;
+    transform: rotate(45deg);
+}
+
+/* Animation for arrows on hover */
+.arrow-prev:hover:before {
+    animation: aniArrowPrev 0.5s ease-in-out infinite;
+}
+
+.arrow-prev:hover:after {
+    animation: aniArrowPrev 0.5s ease-in-out infinite;
+}
+
+.arrow-next:hover:before {
+    animation: aniArrowNext 0.5s ease-in-out infinite;
+}
+
+.arrow-next:hover:after {
+    animation: aniArrowNext 0.5s ease-in-out infinite;
+}
+
+/* Keyframes for the previous arrow animation */
+@keyframes aniArrowPrev {
+    0% {
+        transform: rotate(-45deg) translateX(0) translateY(0);
+    }
+    50% {
+        transform: rotate(-45deg) translateX(-5px) translateY(-5px);
+    }
+    100% {
+        transform: rotate(-45deg) translateX(0) translateY(0);
+    }
+}
+
+/* Keyframes for the next arrow animation */
+@keyframes aniArrowNext {
+    0% {
+        transform: rotate(45deg) translateX(0) translateY(0);
+    }
+    50% {
+        transform: rotate(45deg) translateX(5px) translateY(-5px);
+    }
+    100% {
+        transform: rotate(45deg) translateX(0) translateY(0);
+    }
+}
