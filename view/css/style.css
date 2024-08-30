@@ -429,12 +429,25 @@ a {
 }
 footer {
     padding: 30px 100px;
-    border-top: 1px solid #F2E8D8;
+    border-top: 1px solid #C9AB81;
+    border-bottom: 1px solid #C9AB81;
 }
-.food-left p{
+.footer-left p , .footer-right p {
    color: #ffffff; 
 }
-
+.footer-left{
+    padding: 108px 0px 91px 235px;
+    border-right: 1px solid #C9AB81;
+}
+.footer-right{
+    padding: 108px 0px 91px 235px;
+}
+.b-l {
+    border-right: 1px solid #C9AB81;
+}
+.p-20{
+    padding-top:10px ;
+}
 .footer-links {
     text-align: center;
     list-style: none;
