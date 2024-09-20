@@ -364,6 +364,7 @@ a {
 .myswiper .swiper-wrapper .swiper-slide{
     width: 505px !important;
 }
+<<<<<<< HEAD
 .book-tablie-light a {
     padding: 10px 15px;
     border: 1px solid #C9AB81;
@@ -396,3 +397,121 @@ a {
     font-weight: 600;
     line-height: 56px;
 }
+=======
+.chef-btn{
+    padding: 30px 0;
+}
+.chef-text h1 {
+    font-size: 42px;
+    font-weight: 800;
+    line-height: 56px;
+}
+.chef-btn-light {
+    border: 1px solid #ffffff;
+    padding:10px 15px;
+    color: #C9AB81;
+    margin-right:30px;
+    border-radius: 8px;
+    transition: all 0.8s ease;
+}
+.chef-btn-light:hover{
+    transform-style: preserve-3d;
+    background-color: #C9AB81;
+    border: 0;
+    color: #ffffff;
+}
+.chef-btn-dark{
+    background-color: #715b3e;
+    color: #ffffff;
+    padding:10px 15px;
+    border-radius: 8px;
+    transition: all 0.8s ease;
+}
+.chef-btn-dark:hover{
+    transform-style: preserve-3d;
+    background-color: #C9AB81;
+    border: 0;
+    color: #ffffff;
+}
+
+.chef-img img{
+    border-radius: 10px;
+}
+.review-img img {
+    width: 139px;
+    height: 139px;
+    object-fit: cover;
+    border-radius: 100%;
+    margin-right: 30px;
+}
+.review-text {
+    padding: 15px 0;
+    h4{
+        margin-bottom: 10px;
+        color: #C9AB81;
+        font-size: 30px;
+        font-weight: 800;
+    }
+    p{
+        color: #ffffff;
+    }
+}
+.swiper-button-next::after{
+    content: 'f061';
+}
+
+.swiper-button-prev::after{
+    content: 'f062';
+}
+footer {
+    padding: 30px 100px;
+    border-top: 1px solid #C9AB81;
+    border-bottom: 1px solid #C9AB81;
+}
+.footer-left p , .footer-right p {
+   color: #ffffff; 
+}
+.footer-left{
+    padding: 108px 0px 91px 235px;
+    border-right: 1px solid #C9AB81;
+}
+.footer-right{
+    padding: 108px 0px 91px 235px;
+}
+.b-l {
+    border-right: 1px solid #C9AB81;
+}
+.p-20{
+    padding-top:10px ;
+}
+.footer-links {
+    text-align: center;
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.footer-links li {
+    margin-right: 30px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #F2E8D8;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: #FFD700;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+.icon {
+    font-size: 16px;
+}
+>>>>>>> 508f4e567c4018fb7afde0a7a978a2f5107e0d59
