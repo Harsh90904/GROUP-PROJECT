@@ -29,7 +29,9 @@ ol {
     list-style: none;
     padding: 0;
 }
-
+.m-0{
+    margin: 0;
+}
 .josefin {
     font-family: 'Josefin Sans', sans-serif;
 }
@@ -361,4 +363,36 @@ a {
 }
 .myswiper .swiper-wrapper .swiper-slide{
     width: 505px !important;
+}
+.book-tablie-light a {
+    padding: 10px 15px;
+    border: 1px solid #C9AB81;
+    color: #ffffff;
+    transition: all 0.3s ease-in-out;
+}
+
+.book-tablie-light a:hover {
+    background-color: #C9AB81;
+}
+.book-tablie-dark a {
+    padding: 11px 15px;
+    margin:0 20px;
+    background-color: #715b3e;
+    color: #ffffff;
+    transition: all 0.3s ease-in-out;
+}
+
+.book-tablie-dark a:hover {
+    background-color: #C9AB81;
+}
+.inner-food{
+    background-color: #0f1d22;
+    border-radius: 5px;
+    margin-top: 30px;
+    padding: 50px 60px;
+}
+.inner-food .about-box h1{
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 56px;
 }
